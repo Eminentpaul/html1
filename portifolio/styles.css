@@ -1,0 +1,654 @@
+*{
+    top: 0;
+    left: 0;
+    
+    margin: auto 0;
+    color: #fff;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.head{
+    display: flex;
+    color: white;
+    padding: 20px;
+    left: 0;
+    text-align: center;
+    /* max-width: 1190px; */
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.title{
+    position: relative;
+    font-family: prata;
+    font-weight: lighter;
+    font-size: 15px;
+    
+}
+
+/* .menu{
+    margin-left: -5px;
+} */
+
+.menu ul{
+    white-space: nowrap;
+    
+}
+
+.menu li{
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: inter;
+}
+
+.relate{
+    margin-right: -20px;
+}
+
+.relate h6 a{
+    background-color: yellow;
+    padding: 10px 20px;
+    font-family: prata;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.relate h6 a:hover{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.container{
+    /* width: 1000px; */
+   
+}
+
+
+.intro{
+    margin-bottom: 90px;
+    margin: 5% 12%;
+    
+}
+
+.intro h1{
+    font-size:  49px;
+    font-weight: normal;
+    font-family: prata;
+    max-width: 60%;
+}
+
+.intro p{
+    font-family: inter;
+    font-weight: 300;
+    font-size: 17px;
+    max-width: 60%;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 5%;
+}
+
+.ptn{
+    width: 10%;
+}
+
+.ptn img{
+    max-width: 100%;
+}
+
+/* .partners ul{
+    white-space: nowrap;
+    text-decoration: none;
+    
+}
+
+.partners li{
+    margin: 5px 35px;
+    text-decoration: none;    
+    justify-content: center;
+    
+} */
+
+.sample{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 5% 12%;
+    
+}
+
+.sample .sample1{
+    width: 45%;
+    
+}
+
+.sample1 img{
+max-width: 100%;
+}
+
+.sample h2{
+    font-family: prata;
+    font-weight: 100;
+    font-size: 38px;
+    margin: 3%;
+    margin-left: 0;
+}
+
+.sample p{
+    font-size: 15px;
+    font-family: inter;
+}
+
+.detail{
+    background-color: #2E3038;
+    padding: 5% 10%;
+    
+}
+
+.detail p{
+    color: #ADADAD;
+    font-family: inter;
+    columns: 2;
+    column-gap: 8%;
+    font-size: 15px;
+
+}
+
+.detail p span{
+    font-family: prata;
+    color: white;
+    font-size: 32px;
+}
+
+.get-in-touch{
+    padding: 5% 10%;
+    display: flex;
+    
+}
+
+.get-in-touch .value{
+    width: 42%;
+}
+
+.value h2{
+    font-family: prata;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.value p{
+    font-family: inter;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.value h4{
+    background-color: yellow;
+    color: #000;
+    margin: 15px 0;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+.value h4:hover{
+    background-color: orange;
+}
+
+footer{
+    background-color: #2E3038;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    
+}
+
+footer .icons{
+    text-align: right;
+    box-sizing: border-box;
+}
+
+footer .title{
+    width: 80%;
+    text-align: left;
+    
+}
+
+footer .title h3{
+    margin-left: 7%;
+    font-family: prata;
+    font-weight: 200;
+}
+
+footer ul{
+    white-space: nowrap;
+}
+
+footer li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.main-mobile{
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 770px){
+    .main-mobile{
+        visibility: visible;
+    }
+
+    .menu{
+        visibility: hidden;
+        width: 20px;
+    }
+
+    .relate{
+        visibility: hidden;
+    }
+
+    header .title{
+        display: absolute;
+        max-width: 80%;
+    }
+
+
+    .mobile {
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+      }
+
+     
+    
+        .intro h1{
+            font-size:  39px;
+            font-weight: normal;
+            font-family: prata;
+            max-width: 100%;
+            
+        }
+        
+        .intro p{
+            font-family: inter;
+            font-weight: 300;
+            font-size: 16px;
+            max-width: 100%;
+            
+        }
+
+        .partners{
+            display:flex;
+            justify-content: space-around;
+            justify-content: space-evenly;
+            text-align: center;
+            margin: 5%;
+        }
+        
+        .ptn{
+            width: 10%;
+        }
+        
+        .ptn img{
+            max-width: 100%;
+        }
+
+        .sample{
+            margin-top: 5%;
+            display: block;
+            justify-content: space-evenly;
+            justify-content: space-between;
+            margin: 5% 12%;
+            
+        }
+        
+        .sample .sample1{
+            width: 100%;
+            
+        }
+        
+        .sample1 img{
+        max-width: 100%;
+        margin-top: 40px;
+
+        }
+        
+        .sample h2{
+            font-family: prata;
+            font-weight: 100;
+            font-size: 38px;
+            margin: 3%;
+            margin-left: 0;
+        }
+        
+        .sample p{
+            font-size: 15px;
+            font-family: inter;
+        }
+
+        .detail{
+            background-color: #2E3038;
+            padding: 15% 10%;
+            
+        }
+        
+        .detail p{
+            color: #ADADAD;
+            font-family: inter;
+            columns: 1;
+            font-size: 15px;
+        
+        }
+        
+        .detail p span{
+            font-family: prata;
+            color: white;
+            font-size: 32px;
+        }
+        
+        .get-in-touch{
+            padding: 12% 8%;
+            display: flex;
+            
+        }
+        
+        .value.one{
+            width: 80%;
+        }
+        
+        .value h2{
+            font-family: prata;
+            font-weight: 200;
+            font-size: 30px;
+        }
+        
+        .value p{
+            font-family: inter;
+            font-size: 15px;
+            font-weight: 300;
+            text-align: justify;
+        }
+        
+        .value h4{
+            background-color: yellow;
+            color: #000;
+            margin: 15px 0;
+            padding: 15px;
+            width: 25%;
+            text-align: center;
+        }
+        
+        .value h4:hover{
+            background-color: orange;
+        }
+        
+        footer{
+            background-color: #2E3038;
+            display: flex;
+            padding: 20px;
+            justify-content: space-evenly;
+            
+        }
+        
+        footer .icons{
+            text-align: right;
+            box-sizing: border-box;
+        }
+        
+        footer .title{
+            width: 80%;
+            text-align: left;
+            
+        }
+        
+        footer .title h3{
+            margin-left: 7%;
+            font-family: prata;
+            font-weight: 200;
+        }
+        
+        footer ul{
+            white-space: nowrap;
+        }
+        
+        footer li{
+            display: inline-block;
+            padding: 5px;
+        }
+}
+
+@media screen and (max-width: 430px){
+    .main-mobile{
+        visibility: visible;
+    }
+
+    .menu{
+        visibility: hidden;
+        width: 20px;
+    }
+
+    .relate{
+        visibility: hidden;
+    }
+
+    header .title{
+        display: absolute;
+        max-width: 80%;
+    }
+
+
+    .mobile {
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+      }
+
+        .intro{
+            margin-bottom: 10%;
+        }
+    
+        .intro h1{
+            font-size:  30px;
+            font-weight: normal;
+            font-family: prata;
+            max-width: 100%;
+            
+        }
+        
+        .intro p{
+            font-family: inter;
+            font-weight: 300;
+            font-size: 15px;
+            max-width: 100%;
+            
+            
+        }
+
+        .partners{
+            display:flex;
+            justify-content: space-around;
+            justify-content: space-evenly;
+            text-align: center;
+            margin: 5%;
+        }
+        
+        .ptn{
+            width: 10%;
+        }
+        
+        .ptn img{
+            max-width: 100%;
+        }
+
+        .sample{
+            margin-top: 5%;
+            display: block;
+            justify-content: space-evenly;
+            justify-content: space-between;
+            margin: 5% 12%;
+            
+        }
+        
+        .sample .sample1{
+            width: 100%;
+            
+        }
+        
+        .sample1 img{
+        max-width: 100%;
+        margin-top: 40px;
+
+        }
+        
+        .sample h2{
+            font-family: prata;
+            font-weight: 100;
+            font-size: 38px;
+            margin: 3%;
+            margin-left: 0;
+        }
+        
+        .sample p{
+            font-size: 15px;
+            font-family: inter;
+        }
+
+        .detail{
+            background-color: #2E3038;
+            padding: 15% 10%;
+            
+        }
+        
+        .detail p{
+            color: #ADADAD;
+            font-family: inter;
+            columns: 1;
+            font-size: 15px;
+        
+        }
+        
+        .detail p span{
+            font-family: prata;
+            color: white;
+            font-size: 32px;
+        }
+        
+        .get-in-touch{
+            padding: 12% 8%;
+            display: flex;
+            
+        }
+        
+        .value.one{
+            width: 100%;
+        }
+        
+        .value h2{
+            font-family: prata;
+            font-weight: 200;
+            font-size: 30px;
+        }
+        
+        .value p{
+            font-family: inter;
+            font-size: 15px;
+            font-weight: 300;
+            text-align: justify;
+        }
+        
+        .value h4{
+            background-color: yellow;
+            color: #000;
+            margin: 15px 0;
+            padding: 15px;
+            width: 25%;
+            text-align: center;
+        }
+        
+        .value h4:hover{
+            background-color: orange;
+        }
+        
+        footer{
+            background-color: #2E3038;
+            display: flex;
+            padding: 20px;
+            justify-content: space-evenly;
+            
+        }
+        
+        footer .icons{
+            text-align: right;
+            box-sizing: border-box;
+        }
+        
+        footer .title{
+            width: 80%;
+            text-align: left;
+            
+        }
+        
+        footer .title h3{
+            margin-left: 7%;
+            font-family: prata;
+            font-weight: 200;
+        }
+        
+        footer ul{
+            white-space: nowrap;
+        }
+        
+        footer li{
+            display: inline-block;
+            padding: 5px;
+        }
+}
